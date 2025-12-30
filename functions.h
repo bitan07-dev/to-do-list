@@ -25,7 +25,7 @@ void help() {
            "-c or --check\n\tDisplay current list and exit\n"
            "-a \e[4m\"work\"\e[0m or --add \e[4m\"work\"\e[0m\n\tAdd new work to do and exit\n"
            "-d \e[4mindex\e[0m or --delete \e[4mindex\e[0m\n\tdelete a work on index provided and exit\n"
-           "-t \e[4mindex\e[0m or --toggle \e[4mindex\e[0m\n\ttoggle mark a work as done on index provided and exit\n"
+           "-t \e[4mindex\e[0m or --toggle \e[4mindex\e[0m\n\ttoggle a work as done or pending on index provided and exit\n"
            "-r or --clear\n\tClears current list after confirmation (use -y to bypass) and exit\n");
 }
 
